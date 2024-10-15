@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+body {
+    display: flex;
+    justify-content: center; /* Center the grid */
+    align-items: center; /* Vertically center if needed */
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 3 columns */
+    gap: 10px; /* Space between images */
+}
+
+.image-grid img {
+    width: 100%; /* Fill the grid cell */
+    height: auto; /* Maintain aspect ratio */
+}
